@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /invent/report/
+RewriteCond $1 !^(index\.php|asset|images)
+RewriteRule ^(.*)$ index.php
